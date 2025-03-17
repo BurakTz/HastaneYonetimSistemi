@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="331.0" prefWidth="439.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hastanedemo2.HastaReceteGoruntule">
+   <children>
+      <Label fx:id="recetelb" layoutX="238.0" layoutY="40.0" prefHeight="54.0" prefWidth="153.0" style="-fx-background-color: #E0E0E0;" wrapText="true" />
+      <Label fx:id="tanilb" layoutX="238.0" layoutY="139.0" prefHeight="54.0" prefWidth="153.0" style="-fx-background-color: #E0E0E0;" wrapText="true" />
+      <Label fx:id="taburlb" layoutX="238.0" layoutY="237.0" prefHeight="54.0" prefWidth="153.0" style="-fx-background-color: #E0E0E0;" wrapText="true" />
+      <Button onAction="#ReceteBt" layoutX="48.0" layoutY="59.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="130.0" style="-fx-background-color: STEELBLUE;" text="Recete Görüntüle" textFill="WHITE" wrapText="true" />
+      <Button onAction="#TaniBt" layoutX="48.0" layoutY="148.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="130.0" style="-fx-background-color: STEELBLUE;" text="Tani Görüntüle" textFill="WHITE" wrapText="true" />
+      <Button onAction="#TaburBt" layoutX="48.0" layoutY="246.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="129.0" style="-fx-background-color: STEELBLUE;" text="Taburculuk Durumu" textFill="WHITE" wrapText="true" />
+   </children>
+</AnchorPane>
